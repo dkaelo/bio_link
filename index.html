@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/> `
+        <title>Dave Kaesen - Links</title>
+        <meta name="viewport" content="width=device-width", initial-scale="1" />
+        <link rel="stylesheet" href="./index.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+        <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            VANTA.BIRDS({
+                el: "#vanta",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: true,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                color1: 0xed0707,
+                color2: 0x221404,
+                wingSpan: 16.00,
+                speedLimit: 2.00,
+                separation: 58.00,
+                quantity: 3.00,
+                backgroundAlpha: 0.0,
+                
+                })
+
+            setTimeout(() => {
+                const main = document.querySelector('main')
+                main.style.opacity = 1
+                main.style.filter = 'blur(0px)'
+            }, 1000)
+        })
+
+
+        </script>  
+    </head>
+    <body>
+        <div id="vanta"></div>
+        <main>
+            <header>
+                <img src="./images/dog.jpeg"/>
+                <h1>
+                    @davekaesen
+                </h1> 
+
+            </header>
+            <ul>
+                <li>
+                    <a href="">
+                    Official Website
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/davekaesen">
+                        Instagram
+                    </a>   
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/davekaesen">
+                        LinkedIn
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/dkaelo">
+                        Github
+                    </a>
+                </li>
+            </ul>
+        
+        </main>
+    </body>
+
+
+
+</html>
